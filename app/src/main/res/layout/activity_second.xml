@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/background1"
+    android:gravity="center_horizontal"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="@string/firstname"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/edFirstName"
+        android:layout_marginBottom="10dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:background="@drawable/background_edittext" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/lastname"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/edLastName"
+        android:layout_marginBottom="10dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:background="@drawable/background_edittext" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/edEmail"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:inputType="textEmailAddress"
+        android:textSize="24sp"
+        android:background="@drawable/background_edittext" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/birthyear"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/edBirthYear"
+        android:layout_width="250dp"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:background="@drawable/background_edittext"
+        android:layout_marginBottom="10dp" />
+
+
+    <RadioGroup
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/rbFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:text="Female" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/save"/>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Homework06</string>
+    <string name="save">save</string>
+    <string name="enter_gender">Enter Gender</string>
+    <string name="enter_birthYear">Enter BirthYear</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_lastname">Enter LastName</string>
+    <string name="enter_firstname">Enter FirstName</string>
+    <string name="enter_birthyear">Enter BirthYear</string>
+    <string name="change_info">change info</string>
+    <string name="firstname">Firstname</string>
+    <string name="lastname">LastName</string>
+    <string name="email">Email</string>
+    <string name="birthyear">BirthYear</string>
+    <string name="gender">Gender</string>
+
+</resources>
